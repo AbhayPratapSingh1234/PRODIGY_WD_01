@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section   class="hero-section" id="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Our Web Service</h1>
+            <p>Your gateway to exceptional service and support.</p>
+            <a href="#get-started" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+
+<!------service section -->
+
+<section class="services" id="services">
+    <h2 class="heading">Our<span>Services</span></h2>
+   <div class="service-container">
+   <div class="service-box"><i class='bx bx-code-alt' ></i>
+   <h3><span> Developement </span></h3>
+   <p>In the digital age, web development is a dynamic and evolving field that blends creativity with technical expertise.
+     Whether you're a business looking to establish 
+    an online presence or an individual interested in building your own projects, understanding 
+    the basics of web development is essential.
+   
+   </p>
+   <a href="#" class="btn">Read More</a>
+   
+   </div>
+   
+   <div class="service-box"><i class='bx bxs-paint'></i>
+       <h3><span> Design </span></h3>
+       <p>Design is everywhere. From the apps on your phone to the layout of your favorite website,
+         design shapes the way we interact with the world. But what exactly is design, and why is it so crucial in our daily lives?
+         Design spans various disciplines, including graphic design, web design, product design, and more.
+       </p>
+       <a href="#" class="btn">Read More</a>
+       
+       </div>
+   
+   <div class="service-box">
+       <i class='bx bx-bar-chart-alt'></i>
+        <h3><span> Marketing </span></h3>
+           <p>Marketing is more than just a buzzword; it's the heartbeat of any successful business. It’s the art and science of connecting with customers,
+             understanding their needs, and delivering value in a way that stands out in a crowded marketplace. Whether you're
+             launching a new product, growing your brand, or simply looking to enhance your outreach, understanding the core principles of marketing is essential.
+           </p>
+           <a href="#" class="btn">Read More</a>
+           
+     </div>
+   </div>
+   </section>
+    <!------about section -->
+    <section id="about">
+        <div class="container">
+            <h1>About Us</h1>
+            <div class="about-content">
+                <img src="volunteer-future-expertise-future-ideas-growth-plans-concept.jpg" alt="About Us" class="about-image">
+                <div class="text-content">
+                    <h2><span>Our </span>Mission</h2>
+                    <p>
+                        At Web Service Application, our mission is to provide top-notch services that
+                        help businesses and individuals achieve their goals efficiently and effectively.
+                        We are dedicated to innovation, quality, and customer satisfaction.
+                    </p>
+                    <h2><span>Our</span> Vision</h2>
+                    <p>
+                        We envision a world where our technology empowers everyone to reach their
+                        full potential. Our commitment to excellence drives us to continually improve
+                        and adapt to the evolving needs of our clients.
+                    </p>
+                    <h2><span>Our</span>Team</h2>
+                    <p>
+                        Our team is comprised of passionate professionals with diverse expertise in
+                        technology, design, and business. Together, we work towards delivering exceptional
+                        solutions that meet and exceed our clients' expectations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact -->
+    <section class="contact-us" id="contact">
+        <div class="container-1">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us using the form below.</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <p id="formMessage" class="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
